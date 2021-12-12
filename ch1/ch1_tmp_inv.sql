@@ -82,6 +82,7 @@ select respondent_id,
        nbr_bars_consumed
   from candybar_historical_data;
 
-
+-- test that the new db model works
 select *
   from respondent_dim;
+
