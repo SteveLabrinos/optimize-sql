@@ -50,7 +50,7 @@ select table_name, column_name, data_type, data_length, nullable
    and table_name = 'CANDYBAR_FACT'
  order by column_id;
 
--- ALL_TAB_COLUMNS
+-- ALL_INDEXES
 ---- Lists all the indexes accessible to you
 select owner, index_type, index_name, table_name, tablespace_name
   from all_indexes
